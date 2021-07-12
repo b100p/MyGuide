@@ -126,6 +126,7 @@
     <Content Include="Content\bootstrap-theme.min.css.map" />
     <Content Include="Content\bootstrap-theme.css.map" />
     <None Include="Scripts\jquery-3.4.1.intellisense.js" />
+    <Content Include="Guide\IT\MS\Default.aspx" />
     <Content Include="Guide\MainMenue.aspx" />
     <Content Include="Guide\Programming\Csharp\Default.aspx" />
     <Content Include="Img\bulletimg.png" />
@@ -190,6 +191,13 @@
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
+    <Compile Include="Guide\IT\MS\Default.aspx.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Guide\IT\MS\Default.aspx.designer.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Guide\MainMenue.aspx.cs">
       <DependentUpon>MainMenue.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -229,7 +237,6 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
-    <Folder Include="Guide\IT\Cisco\" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
